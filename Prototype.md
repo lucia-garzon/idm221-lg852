@@ -197,10 +197,11 @@ I would look at improving the color scheme of our app prototype to increase its 
 
 
 [comment]: <> (The text below is for the About Page, followed by the Creative page)
+[comment]: <> (Hi there! My name is Lucia Garzon, and I currently study User Experience and Interaction Design at Drexel University. Creating helpful interfaces through design is a field I am very excited about, and I enjoy drawing, painting, reading, and visiting art museums in my free time.)
 
 # Hi there, I’m Lucia!
 
-I am a UI designer and UX researcher based in Philadelphia and I love challenging myself to create engaging digital experiences. Currently, I’m designing and developing websites and apps as a student at Drexel University. 
+I am a **UI designer** and **UX researcher** based in Philadelphia and I love challenging myself to create engaging digital experiences. Currently, I’m designing and developing websites and apps as a student at **Drexel University**. 
 
 In my free time, I enjoy making art, reading, traveling and watching animated movies. Thanks for visiting my portfolio!
 

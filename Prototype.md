@@ -125,7 +125,7 @@ Throughout my 10 week Interaction Design class, I learned the importance of micr
 As a result, I gained a better understanding of how interaction design contributes to making products that understand people, increasing my interest towards creating intuitive experiences. 
 
 ## User 
-First, this redesign and rebranding process began with choosing an app with q singular focus and researching its target user. Waffle, now reimagined into Inkling, is a group journaling app for couples, family and friends to collaborate and write journal entries together. 
+First, this redesign and rebranding process began with choosing an app with a singular focus and researching its target user. Waffle, now reimagined into Inkling, is a group journaling app for couples, family and friends to collaborate and write journal entries together. 
 
 Since Inkling targets youth and college-age adults to create shared journals, this is where Sammy comes in. As a college freshman seeking to keep friendships from high school strong, Sammy is a perfect match.
 

@@ -1,5 +1,4 @@
 html {
-    --primary-surface: #27272a;
     --primary-text: #08201E;
     --secondary-text: #ffffff;
     --main-background: #DDFFFD;
@@ -9,7 +8,7 @@ html {
 }
 
 body {
-    background-color: var(--primary-surface);
+    background-color: var(--main-background);
     color: var(--primary-text);
 }
 

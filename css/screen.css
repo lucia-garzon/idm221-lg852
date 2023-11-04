@@ -1,3 +1,12 @@
+
+@font-face {
+    font-family: 'readex_promedium';
+    src: url("fonts/readexprohexpwght-readex-pro.woff2") format("woff2"),
+    url("fonts/readexprohexpwght-readex-pro.ttf") format("truetype");
+    font-weight: 0 700;
+    font-style: normal;
+}
+
 html {
     --primary-text: #08201E;
     --secondary-text: #ffffff;

@@ -1,8 +1,8 @@
 
 @font-face {
     font-family: "readex_pro";
-    src: url("fonts/readexprohexpwght-readex-pro.woff2") format("woff2"),
-    url("fonts/readexprohexpwght-readex-pro.ttf") format("truetype");
+    src: url("fonts/readexpro.woff2") format("woff2"),
+    url("fonts/readexpro.ttf") format("truetype");
     font-weight: 0 700;
     font-style: normal;
 }
@@ -19,13 +19,15 @@ html {
 
 body {
     background-color: var(--main-background);
-    color: var(--primary-text);
-    
 }
 
 main {
     background-color: var(--main-background);
     
+}
+
+p {
+    color: var(--primary-text);
 }
 
 

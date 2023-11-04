@@ -1,0 +1,27 @@
+html {
+    --primary-surface: #27272a;
+    --primary-text: #08201E;
+    --secondary-text: #ffffff;
+    --main-background: #DDFFFD;
+    --footer-background: #0D403C;
+    --button-color: #0D403C;
+    
+}
+
+body {
+    background-color: var(--primary-surface);
+    color: var(--primary-text);
+}
+
+main {
+    background-color: var(--main-background);
+}
+
+
+footer {
+    color: var(--footer-background);
+}
+
+h1, h2, h3 {
+    color: var(--primary-text);
+}

@@ -1,8 +1,8 @@
 
 @font-face {
     font-family: "readex_pro";
-    src: url("/fonts/readexpro.woff2") format("woff2"),
-    url("/fonts/readexpro.ttf") format("truetype");
+    src: url('../fonts/readexpro.woff2') format('woff2'),
+    url('../fonts/readexpro.ttf') format('truetype');
     font-weight: 0 700;
     font-style: normal;
 }
@@ -67,4 +67,18 @@ footer {
 h1, h2, h3 {
     color: var(--primary-text);
     font-family: var(--font-header);
+    font-weight: bolder;
+    /* change bold value */
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.625rem;
+}
+
+h3 {
+    font-size: 1.125rem;
 }

@@ -10,8 +10,8 @@
 
 @font-face {
     font-family: "work_sansitalic";
-    src: url('worksans-italic-variable.woff2') format('woff2'),
-    url('worksans-italic-variable.ttf') format('truetype');
+    src: url('../fonts/worksans-italic-variable.woff2') format('woff2'),
+    url('../fonts/worksans-italic-variable.ttf') format('truetype');
     font-weight: 0 900;
     font-style: normal;
 
@@ -60,6 +60,28 @@ body {
 .project_header {
 
 }
+
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+.icon-44 {
+    width: 44px;
+    height: 44px;
+}
+
+.icon-34-42 {
+    width: 42.5px;
+    height: 34px;
+}
+
+.icon-43-45 {
+    width: 45.01px;
+    height: 43px;
+}
+
 
 main {
     background-color: var(--main-background);

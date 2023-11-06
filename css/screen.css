@@ -53,15 +53,19 @@ main {
 
 p {
     color: var(--primary-text);
-    font-family: var(--font-primary)
+    font-family: var(--font-primary);
 }
 
 a, li {
-    font-family: var(--font-primary)
+    font-family: var(--font-primary);
 }
 
+.resume_link {
+    color: var(--secondary-text);
+}
 footer {
-    color: var(--footer-background);
+    background-color: var(--footer-background);
+    color: var(--secondary-text);
 }
 
 h1, h2, h3 {

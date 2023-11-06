@@ -39,11 +39,26 @@ html {
     --font-primary: "work_sansregular", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     --font-primary-italic: "work_sansitalic", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     
+    --project-1-highlight: #004A80;
+    --project-2-highlight: #AF0B42;
+    --project-3-highlight: #529797;
+    --project-4-highlight: #4B5A2B;
 }
 
 body {
     background-color: var(--main-background);
     
+}
+
+.project-wrapper {
+    width: 100%;
+    max-width: 300 px;
+
+    margin: 0 auto;
+}
+
+.project_header {
+
 }
 
 main {
@@ -85,4 +100,28 @@ h2 {
 
 h3 {
     font-size: 1.125rem;
+}
+
+.project-content-highlighted {
+    color: var(--secondary-text);
+}
+
+#project1_highlighted {
+    background-color: var(--project-1-highlight);
+}
+
+#project2_highlighted {
+    background-color: var(--project-2-highlight);
+}
+
+#project3_highlighted {
+    background-color: var(--project-3-highlight);
+}
+
+#project4_highlighted1 {
+    background-color: var(--project-4-highlight);
+}
+
+#project4_highlighted2 {
+    background-color: var(--project-4-highlight);
 }

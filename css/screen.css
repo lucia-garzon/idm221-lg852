@@ -124,9 +124,14 @@ h3 {
     font-size: 1.125rem;
 }
 
-.project-content-highlighted {
+.project-text-highlighted {
     color: var(--secondary-text);
 }
+
+
+/* .project-content-highlighted {
+    color: var(--secondary-text);
+} */
 
 #project1_highlighted {
     background-color: var(--project-1-highlight);

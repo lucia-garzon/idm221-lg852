@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: "readex_pro";
     src: url('../fonts/readexpro.woff2') format('woff2'),
@@ -6,8 +5,6 @@
     font-weight: 0 700;
     font-style: normal;
 }
-
-
 @font-face {
     font-family: "work_sansitalic";
     src: url('../fonts/worksans-italic-variable.woff2') format('woff2'),
@@ -16,10 +13,6 @@
     font-style: normal;
 
 }
-
-
-
-
 @font-face {
     font-family: "work_sansregular";
     src: url('worksans-variable.woff2') format('woff2'),
@@ -32,6 +25,7 @@
 html {
     --primary-text: #08201E;
     --secondary-text: #ffffff;
+    --text-link-before: #005C46;
     --main-background: #DDFFFD;
     --footer-background: #0D403C;
     --button-color: #0D403C;
@@ -57,9 +51,9 @@ body {
     margin: 0 auto;
 }
 
-.project_header {
+/* .project_header {
 
-}
+} */
 
 
 img {
@@ -71,12 +65,10 @@ img {
     width: 44px;
     height: 44px;
 }
-
 .icon-34-42 {
     width: 42.5px;
     height: 34px;
 }
-
 .icon-43-45 {
     width: 45.01px;
     height: 43px;
@@ -95,6 +87,13 @@ p {
 
 a, li {
     font-family: var(--font-primary);
+}
+
+a:active {
+    color: var(--primary-text); 
+}
+a {
+    color: var(--text-link-before);
 }
 
 .resume_link {
@@ -122,6 +121,25 @@ h2 {
 
 h3 {
     font-size: 1.125rem;
+}
+
+/* 
+a:hover {
+    background-color: #fff;
+    color: #333;
+} */
+
+/* NAVIGATION */
+nav {
+    text-align: center;
+}
+.nav-list{
+    list-style: none;
+    padding: 0;
+}
+.nav-list-item {
+    display: inline;
+    margin: 0 10px;
 }
 
 .project-text-highlighted {
@@ -156,3 +174,4 @@ h3 {
 #project4_highlighted3 {
     background-color: var(--project-4-highlight);
 }
+

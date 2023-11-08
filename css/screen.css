@@ -90,10 +90,15 @@ p {
     color: var(--primary-text);
     font-family: var(--font-primary);
     font-size: 1rem;
+    font-weight: 400;
+    margin: 0 auto;
     max-width: 100%;
     line-height: 1.563rem;
 }
 
+li {
+    line-height: 1.563rem;
+}
 h1, h2, h3 {
     color: var(--primary-text);
     font-family: var(--font-header);
@@ -110,8 +115,13 @@ h2 {
     font-size: 1.625rem;
 }
 
+h2+p {
+    margin-top: .5rem;
+}
+
 h3 {
     font-size: 1.125rem;
+    margin: 0 auto;
     line-height: 1.5rem;
 }
 
@@ -261,9 +271,56 @@ img+figcaption {
     margin-top: 10px;
 }
 
-/* ABOUT RULES */
+/* !!!!!!! ABOUT RULES !!!!!!! */
 
 .about-title {
     text-align: center;
     margin: 3rem auto 2rem auto;
+}
+
+/* !!!!!!! RESUME RULES !!!!!!!*/
+
+.resume-title-name {
+    margin-top: 5rem;
+    margin-bottom: .1rem;
+}
+
+.resume-title-name+.resume-links {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h3+.line-break-light {
+    margin-top: .5rem;
+}
+
+.line-break {
+    border: none; 
+    border-top: 3px solid var(--primary-text); /* Add a 2px solid line with a black color */
+    margin: 10px 0;
+}
+
+.line-break-light {
+    border: none; 
+    border-top: 2px solid var(--footer-background);
+}
+
+.resume-job-title {
+    border: 1.5px solid black;
+    padding-left: .625rem;
+    padding-right: .625rem;
+    margin: 1.5rem auto;
+}
+
+.lists-container {
+
+    
+}
+
+.bullet-list {
+    
+}
+
+.bullet-list li {
+    /* margin-bottom: 5px; Add space between list items */
 }

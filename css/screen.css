@@ -83,6 +83,29 @@ main {
 p {
     color: var(--primary-text);
     font-family: var(--font-primary);
+    font-size: 1rem;
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+    color: var(--primary-text);
+    font-family: var(--font-header);
+    font-weight: 700;
+    max-width: 100%;
+    /* change bold value */
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.625rem;
+}
+
+h3 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
 }
 
 a, li {
@@ -104,24 +127,6 @@ footer {
     color: var(--secondary-text);
 }
 
-h1, h2, h3 {
-    color: var(--primary-text);
-    font-family: var(--font-header);
-    font-weight: bolder;
-    /* change bold value */
-}
-
-h1 {
-    font-size: 2rem;
-}
-
-h2 {
-    font-size: 1.625rem;
-}
-
-h3 {
-    font-size: 1.125rem;
-}
 
 /* 
 a:hover {
@@ -141,6 +146,8 @@ nav {
     display: inline;
     margin: 0 10px;
 }
+
+
 
 .project-text-highlighted {
     color: var(--secondary-text);
@@ -175,3 +182,32 @@ nav {
     background-color: var(--project-4-highlight);
 }
 
+/* CREATIVE RULES */
+
+.creative-title {
+    margin-top: 2.25rem;
+}
+.creative-title+.creative-title-desc {
+    margin-bottom: 3rem;
+}
+
+.rounded-image {
+    display: block;
+    max-width: 100%; /* Makes the image responsive */
+    height: auto;    /* Ensure aspect ratio is maintained */
+    margin: 0;       
+    border-radius: 14px; 
+}
+
+figcaption {
+    font-family: var(--font-primary);
+    font-size: .813rem; /* 13 px */
+    font-weight: 600; /* semi-bold */
+    margin-top: 10px; 
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+img+figcaption {
+    margin-top: 10px;
+}

@@ -15,11 +15,10 @@
 }
 @font-face {
     font-family: "work_sansregular";
-    src: url('worksans-variable.woff2') format('woff2'),
-    url('worksans-variable.ttf') format('truetype');
+    src: url('../fonts/worksans-variable.woff2') format('woff2'),
+    url('../fonts/worksans-variable.ttf') format('truetype');
     font-weight: 0 900;
     font-style: normal;
-
 }
 
 html {
@@ -29,20 +28,15 @@ html {
     --main-background: #DDFFFD;
     --footer-background: #0D403C;
     --button-color: #0D403C;
+    --case-study: #165954;
     --font-header: readex_pro, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
     --font-primary: work_sansregular, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-    --font-primary-italic: "work_sansitalic", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-primary-italic: work_sansitalic, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     
     --project-1-highlight: #004A80;
     --project-2-highlight: #AF0B42;
     --project-3-highlight: #529797;
     --project-4-highlight: #4B5A2B;
-}
-
-
-body {
-    background-color: var(--main-background);
-    
 }
 
 * {
@@ -56,17 +50,150 @@ body {
     padding-left: 1.875rem;
     padding-right: 1.875rem;
 }
+body {
+    background-color: var(--main-background);
+    
+}
+main {
+    background-color: var(--main-background);
+    
+}
+p {
+    color: var(--primary-text);
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: .5rem  auto;
+    max-width: 100%;
+    line-height: 1.563rem;
+}
+li {
+    line-height: 1.563rem;
+}
+
+a, li {
+    font-family: var(--font-primary);
+}
+
+/* !!!!!!! HEADERS !!!!!!!*/
+h1, h2, h3 {
+    color: var(--primary-text);
+    font-family: var(--font-header);
+    font-weight: 700;
+    max-width: 100%;
+}
+h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+h2 {
+    font-size: 1.625rem;
+    line-height: 2.063rem;
+}
+h2+p {
+    margin-top: .5rem;
+}
+h3 {
+    font-size: 1.125rem;
+    margin: 0 auto;
+    line-height: 1.5rem;
+}
+h4 {
+    color: var(--primary-text);
+    font-family: var(--font-header);
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
 
 /* .project_header {
 
 } */
 
-
-img {
-    height: auto;
-    width: 100%;
+/* !!!!!!! BUTTONS !!!!!!!*/
+button {
+    background-color: var(--button-color);
+    color: var(--secondary-text);
+    padding: 17px 20px;
+    border: none;
+    border-radius: 53px;
+    cursor: pointer;
+    margin: .5rem .5rem;
+}
+.button-text {
+    color: var(--secondary-text);
+    font-family: var(--font-primary);
+    text-decoration: none;
+}
+.michoacana-buttons {
+    margin-top: 1.5rem;
+}
+.button-resume-footer {
+    background-color: var(--button-color);
+    padding: 17px 20px;
+    border: none;
+    border-radius: 53px;
+    cursor: pointer;
+    margin: 2rem .5rem .5rem .5rem;
+}
+.button-text-footer {
+    font-size: 1rem;
+    color: var(--secondary-text);
+    text-decoration: none;
 }
 
+/* !!!!!!! IMAGES !!!!!!!*/
+img {
+    height: auto;
+    max-width: 100%;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.rounded-image {
+    display: block;
+    max-width: 100%; /* Makes the image responsive */
+    height: auto;    /* Ensure aspect ratio is maintained */
+    margin: 1rem auto;       
+    border-radius: 14px; 
+}
+
+img.index-grass {
+    margin: 0;
+    padding: 0; 
+}
+.index-project1-image {
+    max-width: 50%;
+}
+.index-project2-desktop {
+    max-width: 100%;
+}
+.index-images-project2 {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 40%;
+}
+.index-project2-mobile {
+    max-width: 60%;
+}
+.index-project2-tablet {
+    max-width: 90%;
+}
+.index-images-project3 {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 30%;
+}
+.index-images-project4 {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 30%;
+}
 .icon-44 {
     width: 44px;
     height: 44px;
@@ -81,58 +208,7 @@ img {
 }
 
 
-main {
-    background-color: var(--main-background);
-    
-}
 
-p {
-    color: var(--primary-text);
-    font-family: var(--font-primary);
-    font-size: 1rem;
-    font-weight: 400;
-    margin: 0 auto;
-    max-width: 100%;
-    line-height: 1.563rem;
-}
-
-li {
-    line-height: 1.563rem;
-}
-h1, h2, h3 {
-    color: var(--primary-text);
-    font-family: var(--font-header);
-    font-weight: 700;
-    max-width: 100%;
-    /* change bold value */
-}
-
-h1 {
-    font-size: 2rem;
-}
-
-h2 {
-    font-size: 1.625rem;
-}
-
-h2+p {
-    margin-top: .5rem;
-}
-
-h3 {
-    font-size: 1.125rem;
-    margin: 0 auto;
-    line-height: 1.5rem;
-}
-
-a, li {
-    font-family: var(--font-primary);
-}
-
-img.index-grass {
-    margin: 0;
-    padding: 0; 
-}
 
 .index-intro-blurb {
     text-align: center;
@@ -147,9 +223,26 @@ img.index-grass {
     letter-spacing: 3.5%;
 }
 
-.index-title-project {
+.index-title-projects {
     margin: 2rem auto 5.625rem auto;
     text-align: center;
+}
+.project-blurb {
+    margin: 6rem auto;
+}
+.case-study-title {
+    margin-top: .5rem;
+}
+.case-study-text {
+    color: var(--secondary-text);
+    background-color: var(--case-study);
+    border: none;
+    border-radius: 14px;
+    margin-top: 1.5rem;
+    padding: .5rem 1rem .5rem 1rem;
+}
+.case-study-title+.case-study-text {
+    margin: 1.5rem auto;
 }
 
 a:active {
@@ -166,7 +259,7 @@ a {
 }
 
 footer {
-    background-color: var(--footer-background);
+    background-color: var(--case-study);
     color: var(--secondary-text);
     text-align: center; 
     padding: 1.75px; /* 28 px, adds space around  icons and resume link */
@@ -177,6 +270,7 @@ footer .footer_icons {
     margin-top: 1.75rem;
     margin-bottom: 2rem;
 }
+
 
 
 /* 
@@ -205,9 +299,17 @@ nav {
 }
 
 
-/* .project-content-highlighted {
+.project-content-highlighted {
     color: var(--secondary-text);
-} */
+    border: none;
+    border-radius: 14px;
+    margin-top: 1.5rem;
+    padding: .5rem 1rem .5rem 1rem;
+}
+
+.project-text-highlighted {
+    font-family: var(--font-primary);
+}
 
 #project1_highlighted {
     background-color: var(--project-1-highlight);
@@ -242,22 +344,12 @@ nav {
     padding-left: 1.875rem;
     padding-right: 1.875rem;
 }
-
 .creative-title {
-    margin-top: 2.25rem;
+    margin-top: 8rem;
 }
 .creative-title+.creative-title-desc {
     margin-bottom: 3rem;
 }
-
-.rounded-image {
-    display: block;
-    max-width: 100%; /* Makes the image responsive */
-    height: auto;    /* Ensure aspect ratio is maintained */
-    margin: 0 auto;       
-    border-radius: 14px; 
-}
-
 figcaption {
     font-family: var(--font-primary);
     font-size: .813rem; /* 13 px */
@@ -266,7 +358,6 @@ figcaption {
     margin-bottom: 1.5rem;
     text-align: center;
 }
-
 img+figcaption {
     margin-top: 10px;
 }
@@ -274,14 +365,20 @@ img+figcaption {
 /* !!!!!!! ABOUT RULES !!!!!!! */
 
 .about-title {
-    text-align: center;
-    margin: 3rem auto 2rem auto;
+    margin: 8rem auto 2rem auto;
+}
+.about-paragraphs {
+    margin-bottom: 2rem;
 }
 
 /* !!!!!!! RESUME RULES !!!!!!!*/
 
+.button-resume {
+    margin-top: 3rem;
+}
+
 .resume-title-name {
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: .1rem;
 }
 
@@ -296,7 +393,7 @@ h3+.line-break-light {
 
 .line-break {
     border: none; 
-    border-top: 3px solid var(--primary-text); /* Add a 2px solid line with a black color */
+    border-top: 3px solid var(--primary-text); 
     margin: 10px 0;
 }
 
@@ -312,7 +409,7 @@ h3+.line-break-light {
     margin: 1.5rem auto;
 }
 
-.lists-container {
+/* .lists-container {
 
     
 }
@@ -322,5 +419,5 @@ h3+.line-break-light {
 }
 
 .bullet-list li {
-    /* margin-bottom: 5px; Add space between list items */
-}
+    /* margin-bottom: 5px; Add space between list items 
+} */

@@ -144,6 +144,15 @@ button {
     color: var(--secondary-text);
     text-decoration: none;
 }
+p+.button-case-study {
+    margin-top: 0;
+}
+.button-text-case-study {
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--secondary-text);
+    padding: 1.125rem;
+}
 
 /* !!!!!!! IMAGES !!!!!!!*/
 img {
@@ -238,7 +247,7 @@ img.index-grass {
     background-color: var(--case-study);
     border: none;
     border-radius: 14px;
-    margin-top: 1.5rem;
+    margin: 1.5rem auto .875rem auto;
     padding: .5rem 1rem .5rem 1rem;
 }
 .case-study-title+.case-study-text {
@@ -269,6 +278,9 @@ footer {
 footer .footer_icons {
     margin-top: 1.75rem;
     margin-bottom: 2rem;
+}
+.footer_icons {
+    padding-bottom: 1rem;
 }
 
 
@@ -334,6 +346,13 @@ nav {
 #project4_highlighted3 {
     background-color: var(--project-4-highlight);
 }
+
+/* PROJECTS RULES */
+.projects-title {
+    margin: 8rem auto 1.349rem auto;
+    text-align: center;
+}
+
 
 /* CREATIVE RULES */
 

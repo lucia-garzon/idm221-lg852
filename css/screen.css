@@ -173,29 +173,47 @@ img.index-grass {
     padding: 0; 
 }
 .index-project1-image {
-    max-width: 50%;
+    width: 100%;
+    max-width: 400px;
+    
 }
-.index-project2-desktop {
-    max-width: 100%;
-}
+
+/* !!!!!!! !!!!!!! PROJECT 2 MICHOACANA IMAGES !!!!!!! !!!!!!! */
 .index-images-project2 {
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    max-width: 40%;
+    /* max-width: 40%; */
 }
+.index-project2-desktop {
+    width: 100%;
+    max-width: 200px;
+    transform: rotate(2.235deg);
+    margin-right: 10px;
+}
+
 .index-project2-mobile {
-    max-width: 60%;
+    width: 100%;
+    max-width: 200px;
+    transform: rotate(-7.377deg);
+    margin-right: 10px;
 }
 .index-project2-tablet {
-    max-width: 90%;
+    width: 100%;
+    max-width: 200px;
+    transform: rotate(-0.137deg);
+    margin-right: 10px;
 }
+
+/* !!!!!!! !!!!!!! PROJECT 3 INKLING IMAGES !!!!!!! !!!!!!! */
 .index-images-project3 {
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
     max-width: 30%;
 }
+
+/* !!!!!!! !!!!!!! PROJECT 4 BEST FRONDS IMAGES !!!!!!! !!!!!!! */
 .index-images-project4 {
     display: flex; 
     justify-content: space-between; 

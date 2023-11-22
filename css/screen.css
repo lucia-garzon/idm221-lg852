@@ -1,8 +1,7 @@
 @font-face {
     font-family: "readex_pro";
-    src: url('../fonts/readexpro.woff2') format('woff2'),
-    url('../fonts/readexpro.ttf') format('truetype');
-    font-weight: 0 700;
+    src: url('../fonts/readexpro-variable.ttf') format('truetype'), url('../fonts/readexpro.woff2') format('woff2');
+    font-weight: 0 800;
     font-style: normal;
 }
 @font-face {
@@ -218,18 +217,35 @@ img.index-grass {
 
 
 
-
+/* !!!!!!!! HOMEPAGE !!!!!!! */
 .index-intro-blurb {
     text-align: center;
     text-wrap: pretty;
     margin: 2.75rem auto 3.75rem auto;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 17.125rem;
+    height: 2.4375rem;
+    flex-shrink: 0;
 }
 
 .index-title-name {
+    font-family: var(--font-header);
     margin: 10.625rem auto 2.75rem auto;
     text-align: center;
-    line-height: auto;
-    letter-spacing: 3.5%;
+    
+    /* 
+    letter-spacing: 3.5%; */
+
+    font-size: 2rem;
+    /* font-style: normal; */
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.07rem;
 }
 
 .index-title-projects {
@@ -253,6 +269,8 @@ img.index-grass {
 .case-study-title+.case-study-text {
     margin: 1.5rem auto;
 }
+
+
 
 a:active {
     color: var(--primary-text); 
@@ -296,12 +314,21 @@ nav {
     text-align: center;
 }
 .nav-list{
+    display: inline-flex;
+    flex-direction: column;
+    font-weight: 500;
+    gap: 2.375rem;
     list-style: none;
     padding: 0;
 }
 .nav-list-item {
-    display: inline;
     margin: 0 10px;
+}
+
+li > a {
+    color: var(--primary-text);
+    font-family: var(--font-header);
+    text-decoration: none;
 }
 
 
@@ -346,6 +373,11 @@ nav {
 #project4_highlighted3 {
     background-color: var(--project-4-highlight);
 }
+
+.inkling-cover {
+    border: 1.5px solid var(--project-3-highlight);
+}
+
 
 /* PROJECTS RULES */
 .projects-title {

@@ -113,7 +113,8 @@ h4 {
 } */
 
 /* !!!!!!! BUTTONS !!!!!!!*/
-button {
+
+.button-case-study, .button-resume{
     background-color: var(--button-color);
     color: var(--secondary-text);
     padding: 17px 20px;
@@ -121,6 +122,15 @@ button {
     border-radius: 53px;
     cursor: pointer;
     margin: .5rem .5rem;
+}
+
+.burger-menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background-color: transparent; 
+    border: none;
 }
 .button-text {
     color: var(--secondary-text);

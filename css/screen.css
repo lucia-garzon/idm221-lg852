@@ -62,7 +62,7 @@ p {
     font-family: var(--font-primary);
     font-size: 1rem;
     font-weight: 400;
-    margin: .5rem  auto;
+    margin: 1.5rem auto;
     max-width: 100%;
     line-height: 1.563rem;
 }
@@ -108,13 +108,13 @@ h4 {
 }
 
 
-/* .project_header {
-
-} */
+.project_header {
+    margin: 3.5rem auto 1.5rem auto;
+}
 
 /* !!!!!!! BUTTONS !!!!!!!*/
 
-.button-case-study, .button-resume{
+.button-case-study, .button-resume, .button-project{
     background-color: var(--button-color);
     color: var(--secondary-text);
     padding: 17px 20px;
@@ -125,9 +125,11 @@ h4 {
 }
 
 .burger-menu {
+    width: 100%;
+    max-width: 70px;
     position: fixed;
     top: 20px;
-    right: 20px;
+    right: 26px;
     cursor: pointer;
     background-color: transparent; 
     border: none;
@@ -169,6 +171,18 @@ img {
     max-width: 100%;
     padding-left: .5rem;
     padding-right: .5rem;
+}
+
+.logo {
+    width: 100%;
+    max-width: 70px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    left: 28.5px;
+    height: auto;
+    cursor: pointer;
+    z-index: 1000;
 }
 .rounded-image {
     display: block;

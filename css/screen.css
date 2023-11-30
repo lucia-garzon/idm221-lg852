@@ -133,6 +133,7 @@ h4 {
     cursor: pointer;
     background-color: transparent; 
     border: none;
+    z-index: 1100;
 }
 .button-text {
     color: var(--secondary-text);
@@ -192,10 +193,14 @@ img {
     border-radius: 14px; 
 }
 
-img.index-grass {
+.index-grass img {
     margin: 0;
     padding: 0; 
+    transform: translateX(-.5rem);
+    scale: 110%;
 }
+
+
 .index-project1-image {
     width: 100%;
     max-width: 400px;
@@ -297,8 +302,33 @@ img.index-grass {
 .project-blurb {
     margin: 6rem auto;
 }
+
+.case-study-icons {
+    position: relative;
+    top: 100px;
+    left: 200px;
+    gap: 0.6825rem;
+    z-index: 120;
+
+}
+.figma-icon {
+    width: auto;
+    height: 27px;
+    padding: none;
+}
+.miro-icon {
+    width: auto;
+    height: 27px;
+    padding: none;
+}
 .case-study-title {
     margin-top: .5rem;
+}
+#case-study-title1 {
+    position: relative;
+    left: 200px;
+    bottom: -90px;
+    z-index: 140;
 }
 .case-study-text {
     color: var(--secondary-text);
@@ -310,6 +340,29 @@ img.index-grass {
 }
 .case-study-title+.case-study-text {
     margin: 1.5rem auto;
+}
+#case-study-text1 {
+    position: relative;
+    bottom: 140px;
+    z-index: 150;
+}
+
+/* .lilypad-light-1 {
+    position: relative;
+    left: 170px;
+    width: 9.07888rem;
+    height: 9.96925rem;
+    transform: rotate(-125.108deg);
+    z-index: 110;
+} */
+.lilypad-1 {
+    position: relative;
+    left: 150px;
+    bottom: 30px;
+    width: 13.377rem;
+    height: 13.16063rem;
+    /* transform: rotate(-125.108deg); */
+    z-index: 110;
 }
 
 
@@ -333,11 +386,14 @@ footer {
     text-align: center; 
     padding: 1.75px; /* 28 px, adds space around  icons and resume link */
     margin-top: 4.125rem;
+    
 }
 
 footer .footer_icons {
     margin-top: 1.75rem;
     margin-bottom: 2rem;
+    
+
 }
 .footer_icons {
     padding-bottom: 1rem;

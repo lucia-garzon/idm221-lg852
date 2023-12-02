@@ -135,8 +135,15 @@ h4 {
     cursor: pointer;
     background-color: transparent; 
     border: none;
-    z-index: 1100;
+    z-index: 1100;  
 }
+.burger-img {
+    height: auto;
+    max-width: 100%;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
 .button-text {
     color: var(--secondary-text);
     font-family: var(--font-primary);
@@ -169,12 +176,12 @@ p+.button-case-study {
 }
 
 /* !!!!!!! IMAGES !!!!!!!*/
-img {
+/* img {
     height: auto;
     max-width: 100%;
     padding-left: .5rem;
     padding-right: .5rem;
-}
+} */
 
 .logo {
     width: 70px; /* Adjust the width as needed */
@@ -184,6 +191,8 @@ img {
     height: auto;
     cursor: pointer;
     z-index: 1000;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 /* .logo {
     width: 100%;
@@ -669,16 +678,32 @@ li > a {
 
 .inkling-cover {
     border: 1.5px solid var(--project-3-highlight);
+    border-radius: 25px; 
     margin-top: 4.9rem;
 }
 .michoacana-cover {
+    border-radius: 25px; 
     margin-top: 4.9rem;
+    height: auto;
+    max-width: 100%;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 .best-fronds-cover {
+    border-radius: 25px; 
     margin-top: 4.9rem;
+    height: auto;
+    max-width: 100%;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 .phillyreach-cover {
+    border-radius: 25px; 
     margin-top: 4.9rem;
+    height: auto;
+    max-width: 100%;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 

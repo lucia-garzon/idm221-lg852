@@ -251,6 +251,10 @@ p+.button-case-study {
     max-width: 176px;
     transform: rotate(2.235deg);
     margin-right: 10px;
+
+    height: auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 .index-project2-mobile {
@@ -261,12 +265,20 @@ p+.button-case-study {
     position: relative;
     bottom: 5px;
 
+    height: auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
+
 }
 .index-project2-tablet {
     /* width: 100%; */
     max-width: 100px;
     transform: rotate(-0.137deg);
     margin-right: 10px;
+
+    height: auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 /* !!!!!!! !!!!!!! PROJECT 3 INKLING IMAGES !!!!!!! !!!!!!! */

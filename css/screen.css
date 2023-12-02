@@ -279,6 +279,26 @@ p+.button-case-study {
     left: 94px;
     top: 60px;
     z-index: 160;
+
+    
+}
+.index-project3-mobile1 {
+    height: auto;
+    max-width: 100%;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.index-project3-mobile2 {
+    height: auto;
+    max-width: 100%;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.index-project3-mobile3 {
+    height: auto;
+    max-width: 100%;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 /* .index-images-project3 img {
     

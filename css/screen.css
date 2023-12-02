@@ -52,6 +52,7 @@ html {
 body {
     background-color: var(--main-background);
     
+    
 }
 main {
     background-color: var(--main-background);
@@ -207,7 +208,7 @@ img {
     margin: 0;
     padding: 0; 
     transform: translateX(-.5rem);
-    scale: 110%;
+    scale: 100%;
     width: 100%
     
 }
@@ -394,7 +395,7 @@ img {
 } */
 
 .blurb1, .blurb2, .blurb3, .blurb4 {
-    margin: 1rem auto;
+    margin: 0;
 }
 .blurb1 {
     z-index: 200;
@@ -406,19 +407,19 @@ img {
 .blurb2 {
     z-index: 200;
     position: relative;
-    bottom: 100px;
+    bottom: 37px;
     z-index: 210;
 }
 .blurb3 {
     z-index: 200;
     position: relative;
-    bottom: 270px;
+    bottom: 196px;
 
 }
 .blurb4 {
     z-index: 200;
     position: relative;
-    bottom: 482px;
+    bottom: 399px;
     z-index: 210;
 }
 .lilypad-1 {
@@ -427,14 +428,44 @@ img {
     bottom: 30px;
     /* width: 13.377rem; */
     height: 13.16063rem;
-    /* transform: rotate(-125.108deg); */
     z-index: 110;
+
+
+    /* 
+    maybe use
+    margin-bottom: 30px; 
+    margin-left: 158px; */
+
+    
+}
+@media (max-width: 360px) {
+    .lilypad-1 {
+        margin-left: -71px; 
+        /* Adjusting the value for smaller screens */
+    }
 }
 #case-study-title1 {
+    
     position: relative;
     left: 220px;
     bottom: -90px;
     z-index: 140;
+
+    /* 
+    (doesn't work)
+    position: relative;
+    margin-top: -90px; 
+    margin-left: 220px; 
+    z-index: 140; */
+
+    
+}
+@media (max-width: 360px) {
+    #case-study-title1 {
+        margin-left: 120px; 
+        /* Adjusting the value for smaller screens */
+        
+    }
 }
 #case-study-text1 {
     position: relative;
@@ -504,7 +535,7 @@ img {
     height: 15.144rem;
     position: relative;
     bottom: 100px;
-    left: 127px;
+    left: 154px;
     margin-bottom: 0;
     z-index: 110;
 
@@ -513,7 +544,7 @@ img {
     color: var(--secondary-text);
     position: relative;
     bottom: -38px;
-    left: 213px;
+    left: 233px;
     z-index: 140;
 }
 #case-study-text4 {
@@ -675,9 +706,9 @@ li > a {
 }
 .creative-img {
     display: block;
-    max-width: 100%; /* Makes the image responsive */
-    height: auto;    /* Ensure aspect ratio is maintained */
-    margin: 3.5rem auto 1rem auto;       
+    max-width: 100%; 
+    height: auto;    
+    margin: 3.5rem 0 1rem 0;       
     border-radius: 14px; 
 }
 figcaption {

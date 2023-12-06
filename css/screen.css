@@ -417,15 +417,6 @@ p+.button-case-study {
 }
 
 
-/* .lilypad-light-1 {
-    position: relative;
-    left: 170px;
-    width: 9.07888rem;
-    height: 9.96925rem;
-    transform: rotate(-125.108deg);
-    z-index: 110;
-} */
-
 .blurb {
     z-index: 200;
     position: relative;
@@ -475,9 +466,7 @@ p+.button-case-study {
     z-index: 210;
 } */
 .lilypad-1 {
-    position: relative;
-    left: 158px;
-    bottom: 30px;
+    
     /* width: 13.377rem; */
     height: 13.16063rem;
     z-index: 110;
@@ -530,9 +519,6 @@ p+.button-case-study {
 
 .lilypad-2 {
     height: 15.144rem;
-    position: relative;
-    right: 50px;
-    bottom: 70px;
     margin-bottom: 0;
     z-index: 110;
 
@@ -556,9 +542,6 @@ p+.button-case-study {
 
 .lilypad-3 {
     height: 15.144rem;
-    position: relative;
-    right: 50px;
-    bottom: 70px;
     margin-bottom: 0;
     z-index: 110;
 
@@ -583,9 +566,6 @@ p+.button-case-study {
 
 .lilypad-4 {
     height: 15.144rem;
-    position: relative;
-    bottom: 100px;
-    left: 154px;
     margin-bottom: 0;
     z-index: 110;
 

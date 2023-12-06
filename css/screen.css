@@ -469,11 +469,12 @@ p+.button-case-study {
     
     /* width: 13.377rem; */
     height: 13.16063rem;
-    padding-bottom: 100px;
-    padding-left: 50px;
+    
     z-index: 110;
 
-
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto;
+    padding-left: 50px;
     /* 
     maybe use
     margin-bottom: 30px; 

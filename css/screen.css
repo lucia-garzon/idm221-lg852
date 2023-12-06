@@ -284,9 +284,7 @@ p+.button-case-study {
     justify-content: space-between; 
     align-items: center; 
     max-width: 25%;
-    /* position: relative;
-    left: 94px;
-    top: 60px; */
+    
     z-index: 160;
 
     
@@ -321,9 +319,7 @@ p+.button-case-study {
     justify-content: space-between; 
     align-items: center; 
     max-width: 25%;
-    position: relative;
-    left: -30px;
-    top: 65px;
+    
     z-index: 160;
 }
 .index-images-project4 img {
@@ -521,8 +517,6 @@ p+.button-case-study {
 @media (max-width: 360px) {
     #case-study-title1 {
         margin-left: 120px; 
-        /* Adjusting the value for smaller screens */
-        
     }
 }
 #case-study-text1 {

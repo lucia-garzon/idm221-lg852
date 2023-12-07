@@ -60,6 +60,7 @@ p {
     margin: 1.5rem auto;
     max-width: 100%;
     line-height: 1.563rem;
+    text-align: pretty;
 }
 
 b {
@@ -320,7 +321,7 @@ p+.button-case-study {
     align-items: center; 
     max-width: 25%;
     position: relative;
-    margin-left: -34px;
+    margin-left: -22px;
     z-index: 160;
 }
 .index-images-project4 img {

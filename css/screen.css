@@ -386,39 +386,9 @@ p+.button-case-study {
     
     /* height: 50vh;  */
 }
-
-/* .case-study-icons {
-    position: relative;
-    top: 100px;
-    left: 200px;
-    gap: 0.6825rem;
-    z-index: 120;
-
-} */
-/* .figma-icon {
-    width: auto;
-    height: 27px;
-    padding: none;
-}
-.miro-icon {
-    width: auto;
-    height: 27px;
-    padding: none;
-} */
-.case-study-title {
-    margin-top: .5rem;
-}
-.case-study-text {
-    color: var(--secondary-text);
-    background-color: var(--case-study);
-    border: none;
-    border-radius: 14px;
-    margin: 1.5rem auto .813rem auto;
-    padding: .5rem 1rem .5rem 1rem;
-}
-.case-study-title+.case-study-text {
+/* .case-study-title+.case-study-text {
     margin: 1.5rem auto;
-}
+} */
 
 
 .blurb {
@@ -440,34 +410,42 @@ p+.button-case-study {
     z-index: 210;
 }
 
-/* .blurb1, .blurb2, .blurb3, .blurb4 {
-    margin: 0;
-} */
-/* .blurb1 {
-    z-index: 200;
-    position: relative;
-    bottom: 10px;
-    left: 5px;
+@media (max-width: 360px) {
+    #case-study-title1 {
+        margin-left: 120px; 
+    }
+}
 
-}
-.blurb2 {
-    z-index: 200;
+.case-study-title {
+    color: var(--secondary-text);
     position: relative;
-    bottom: 37px;
-    z-index: 210;
+    z-index: 140;
 }
-.blurb3 {
-    z-index: 200;
-    position: relative;
-    bottom: 196px;
 
+.case-study-title1 {
+    margin-left: 218px; 
+    margin-top: -38px; 
+    margin-bottom: -38px;
+    padding-top: 47px;
 }
-.blurb4 {
-    z-index: 200;
-    position: relative;
-    bottom: 399px;
-    z-index: 210;
-} */
+
+.case-study-title2 {
+    top: 69px;
+    left: 23px;
+}
+.case-study-title3 {
+    margin-left: 23px; 
+    margin-top: -247px; 
+    margin-bottom: 236px;
+    padding-top: 47px;
+}
+.case-study-title4 {
+    margin-left: 221px; 
+    margin-top: -136px; 
+    margin-bottom: -107px;
+    padding-top: 116px;
+}
+
 .lilypad-1 {
     /* width: 13.377rem; */
     height: 8.5rem;  
@@ -481,32 +459,18 @@ p+.button-case-study {
 @media (max-width: 360px) {
     .lilypad-1 {
         margin-left: -71px; 
-        /* Adjusting the value for smaller screens */
     }
 }
-#case-study-title1 {
-    position: relative;
-    margin-left: 218px; 
-    margin-top: -38px; 
-    margin-bottom: -38px;
-    padding-top: 47px;
-    z-index: 150;
 
-    /* 
-    (doesn't work)
-    position: relative;
-    margin-top: -90px; 
-    margin-left: 220px; 
-    z-index: 140; */
 
-    
-}
-@media (max-width: 360px) {
-    #case-study-title1 {
-        margin-left: 120px; 
-    }
-}
-#case-study-text1 {
+.case-study-text1 {
+    color: var(--secondary-text);
+    background-color: var(--case-study);
+    border: none;
+    border-radius: 14px;
+    margin: 1.5rem auto .813rem auto;
+    padding: .5rem 1rem .5rem 1rem;
+
     position: relative;
     z-index: 150;
 }
@@ -525,13 +489,14 @@ p+.button-case-study {
     z-index: 110;
 
 }
-#case-study-title2 {
-    position: relative;
-    top: 69px;
-    left: 23px;
-    z-index: 140;
-}
-#case-study-text2 {
+.case-study-text2 {
+    color: var(--secondary-text);
+    background-color: var(--case-study);
+    border: none;
+    border-radius: 14px;
+    margin: 1.5rem auto .813rem auto;
+    padding: .5rem 1rem .5rem 1rem;
+    
     z-index: 150;
     position: relative;
     bottom: 195px;
@@ -551,18 +516,15 @@ p+.button-case-study {
     z-index: 110;
 
 }
-#case-study-title3 {
+
+.case-study-text3 {
     color: var(--secondary-text);
-    position: relative;
+    background-color: var(--case-study);
+    border: none;
+    border-radius: 14px;
+    margin: 1.5rem auto .813rem auto;
+    padding: .5rem 1rem .5rem 1rem;
 
-    margin-left: 23px; 
-    margin-top: -247px; 
-    margin-bottom: 236px;
-    padding-top: 47px;
-
-    z-index: 140;
-}
-#case-study-text3 {
     z-index: 150;
     position: relative;
     bottom: 225px;
@@ -582,17 +544,15 @@ p+.button-case-study {
     z-index: 110;
 
 }
-#case-study-title4 {
+
+.case-study-text4 {
     color: var(--secondary-text);
-    position: relative;
-    margin-left: 221px; 
-    margin-top: -136px; 
-    margin-bottom: -107px;
-    padding-top: 116px;
-    
-    z-index: 140;
-}
-#case-study-text4 {
+    background-color: var(--case-study);
+    border: none;
+    border-radius: 14px;
+    margin: 1.5rem auto .813rem auto;
+    padding: .5rem 1rem .5rem 1rem;
+
     z-index: 150;
     position: relative;
     bottom: 220px;

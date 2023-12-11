@@ -37,21 +37,6 @@ html {
     box-sizing: border-box;
 }
 
-button .leaf {
-    position: absolute;
-    margin-left: 125px;
-    margin-bottom: 20px;
-    z-index: 120;
-
-    
-    width: 10vw;
-    
-}
-
-.leaf+.button-text-case-study {
-    margin-right: 20px;
-}
-
 .project-wrapper {
     width: 100%;
     /* max-width: 300 px; */
@@ -274,12 +259,7 @@ label .menu {
     color: var(--secondary-text);
     text-decoration: none;
 }
-.button-text-case-study {
-    font-size: 1rem;
-    text-decoration: none;
-    color: var(--secondary-text);
-    padding: 1.125rem;
-}
+
 
 /* !!!!!!! IMAGES !!!!!!!*/
 /* img {
@@ -641,13 +621,43 @@ label .menu {
 
 }
 
+/* button .leaf {
+    position: absolute;
+    margin-left: 125px;
+    margin-bottom: 20px;
+    z-index: 120;
+
+    
+    width: 10vw;
+    
+}
+ */
+.button-text-case-study + .leaf {
+    margin-left: -32px; /* Adjusted margin to 13px */
+    margin-bottom: -12px;
+}
+.leaf {
+    position: absolute;
+    bottom: 18px; /* Adjusted bottom margin */
+    z-index: 120;
+    width: 10vw;
+}
+.button-text-case-study {
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--secondary-text);
+    /* padding: 1.125rem; */
+    padding-right: 20px;
+    margin-right: 25px;
+}
 p+.button-case-study {
     margin-top: 0;
 }
 .button-case-study {
+    position: relative; /* Added this to make the positioning relative to the button */
     background-color: var(--button-color);
     color: var(--secondary-text);
-    padding: 17px 20px;
+    padding: 21px 20px 21px 20px;
     border: none;
     border-radius: 53px;
     cursor: pointer;

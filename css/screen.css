@@ -37,6 +37,21 @@ html {
     box-sizing: border-box;
 }
 
+button .leaf {
+    position: absolute;
+    margin-left: 125px;
+    margin-bottom: 20px;
+    z-index: 120;
+
+    
+    width: 10vw;
+    
+}
+
+.leaf+.button-text-case-study {
+    margin-right: 20px;
+}
+
 .project-wrapper {
     width: 100%;
     /* max-width: 300 px; */

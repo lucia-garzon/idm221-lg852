@@ -144,13 +144,6 @@ h4 {
 } */
 
 /* NAVIGATION */
-nav {
-    text-align: center;
-    /* margin: 15rem auto 15rem auto; */
-    margin-bottom: 99px;
-    border: 1.5px solid var(--project-3-highlight);
-    border-radius: 22px;
-}
 .nav-list{
     text-align: center;
     display: inline-flex;
@@ -173,10 +166,10 @@ li > a {
 
 label .menu {
     border: 2px solid var(--main-background);
+    cursor: pointer;
     position: fixed;
-    right: 36px;
-    top: 16px;
-    z-index: 1010;
+    right: 3%;
+    top: 2%;
     width: 50px;
     height: 46px;
     background: var(--footer-background);
@@ -184,14 +177,14 @@ label .menu {
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     box-shadow: 0 0 0 0 var(--main-background), 0 0 0 0 var(--main-background);
-    cursor: pointer;
+    z-index: 1010;
     
   }
   
   label .hamburger {
     position: fixed;
-    top: 36px;
-    left: 339px;
+    top: 4%;
+    left: 87%;
     width: 26px;
     height: 2px;
     background: var(--main-background);

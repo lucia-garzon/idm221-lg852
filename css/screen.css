@@ -183,8 +183,8 @@ label .menu {
   
   label .hamburger {
     position: fixed;
-    top: 4%;
-    left: 87%;
+    top: 4.3%;
+    left: 88%;
     width: 26px;
     height: 2px;
     background: var(--main-background);

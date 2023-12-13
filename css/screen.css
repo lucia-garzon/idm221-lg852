@@ -247,11 +247,11 @@ label a {
 }
 @media (max-width: 250px) {
     label .menu {
-      right: 5%; /* Adjusted percentage value for small screens */
+        right: 5%; 
     }
 
     label .hamburger {
-      left: 90%; /* Adjusted percentage value for small screens */
+        left: 90%;
     }
 }
 
@@ -321,6 +321,16 @@ label a {
     margin-left: -32px;
     margin-bottom: -22px;
 }
+@media (max-width: 385px) {
+    .index-image-project1 {
+        height: 137px;
+        margin-left: -91px; 
+        margin-bottom: 68px;
+        transform: translateX(50%);
+    }
+}
+
+
 
 /* !!!!!!! !!!!!!! PROJECT 2 MICHOACANA IMAGES !!!!!!! !!!!!!! */
 .index-images-project2 {
@@ -331,6 +341,21 @@ label a {
     /* max-width: 40%; */
     
 }
+@media (max-width: 385px) {
+    .index-images-project2 {
+        height: 15%; 
+        transform: translateX(-9%);
+        margin-left: 9px;
+    }
+}
+@media (max-width: 375px) {
+    .index-images-project2 {
+        height: 15%; 
+        transform: translateX(-9%);
+        margin-left: -6px;
+    }
+}
+
 .index-images-project2 img {
     margin-right: 0; 
 }
@@ -501,11 +526,6 @@ label a {
     z-index: 210;
 }
 
-@media (max-width: 360px) {
-    .case-study-title1 {
-        margin-left: 120px; 
-    }
-}
 
 .case-study-title {
     color: var(--secondary-text);
@@ -518,6 +538,16 @@ label a {
     margin-top: -38px; 
     margin-bottom: -38px;
     padding-top: 47px;
+}
+@media (max-width: 390px) {
+    .case-study-title1 {
+        margin-left: 193px; 
+    }
+}
+@media (max-width: 385px) {
+    .case-study-title1 {
+        margin-left: 159px; 
+    }
 }
 
 .case-study-title2 {
@@ -536,6 +566,16 @@ label a {
     margin-bottom: -107px;
     padding-top: 116px;
 }
+@media (max-width: 390px) {
+    .case-study-title4 {
+        margin-left: 193px; 
+    }
+}
+@media (max-width: 385px) {
+    .case-study-title4 {
+        margin-left: 159px; 
+    }
+}
 
 .lilypad-1 {
     /* width: 13.377rem; */
@@ -546,9 +586,20 @@ label a {
     top: -125px; 
     z-index: 110; 
 }
-@media (max-width: 360px) {
+
+@media (max-width: 390px) {
     .lilypad-1 {
-        margin-left: -71px; 
+        margin-left: 156px; 
+    }
+}
+@media (max-width: 385px) {
+    .lilypad-1 {
+        margin-left: 121px; 
+    }
+}
+@media (max-width: 375px) {
+    .lilypad-1 {
+        margin-left: 100px; 
     }
 }
 .lilypad-2 {
@@ -577,7 +628,16 @@ label a {
     top: 14px; 
     z-index: 110;
 }
-
+@media (max-width: 390px) {
+    .lilypad-4 {
+        margin-left: 156px; 
+    }
+}
+@media (max-width: 385px) {
+    .lilypad-4 {
+        margin-left: 121px; 
+    }
+}
 .case-study-text1 {
     color: var(--secondary-text);
     background-color: var(--case-study);

@@ -403,9 +403,14 @@ label a {
     position: relative;
     left: 108px;
     margin-bottom: -61px;
-    z-index: 160;
-
-    
+    z-index: 160; 
+}
+@media (max-width: 360px) {
+    .index-images-project3 {
+        max-width: 33%;
+        margin-bottom: 95px; 
+        margin-left: 50px;
+    }
 }
 .index-project3-mobile1 {
     height: auto;
@@ -440,6 +445,14 @@ label a {
     margin-left: -22px;
     z-index: 160;
 }
+@media (max-width: 360px) {
+    .index-images-project4 {
+        max-width: 33%;
+        margin-bottom: 95px; 
+        transform: translateX(35%);
+    }
+}
+
 .index-images-project4 img {
     /* lessens space btwn project4 mobile images */
     margin-right: -8px; 
@@ -547,6 +560,11 @@ label a {
 @media (max-width: 385px) {
     .case-study-title1 {
         margin-left: 159px; 
+    }
+}
+@media (max-width: 360px) {
+    .case-study-title1 {
+        margin-left: 138px; 
     }
 }
 

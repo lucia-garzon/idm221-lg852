@@ -408,8 +408,8 @@ label a {
 @media (max-width: 360px) {
     .index-images-project3 {
         max-width: 33%;
-        margin-bottom: 95px; 
-        margin-left: 50px;
+        margin-bottom: 31px; 
+        margin-left: -96px;
     }
 }
 .index-project3-mobile1 {

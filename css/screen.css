@@ -224,9 +224,9 @@ label input:checked + .menu .hamburger:before {
     
 }
 
-label input:checked + .menu + ul { opacity: 1; }
+label input:checked + .menu + ol { opacity: 1; }
 
-label ul {
+label ol {
     z-index: 1020;
     position: absolute;
     top: 50%;

@@ -1,5 +1,6 @@
-.DS_Store
+
 
 #ignore media files
 *.jpg
 *.psd
+*.DS_Store

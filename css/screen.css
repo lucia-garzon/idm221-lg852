@@ -193,11 +193,8 @@ nav {
     display: inline;
     margin: 0 10px;
 }
-.nav-creative {
+nav {
     margin-top: 18rem;
-}
-.nav-resume, .nav-about {
-    margin-top: 13rem;
 }
 
 .burger-menu { 

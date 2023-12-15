@@ -889,6 +889,7 @@ img+figcaption {
 /* !!!!!!! RESUME RULES !!!!!!!*/
 
 .button-resume-header {
+    width: 172px;
     margin-top: 8rem;
 }
 

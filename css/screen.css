@@ -194,11 +194,13 @@ li > a {
 }
 .button-resume-footer {
     background-color: var(--button-color);
+    display: block; 
     padding: 17px 20px;
     border: none;
     border-radius: 53px;
     cursor: pointer;
-    margin: 2rem .5rem .5rem .5rem;
+    margin: 2rem auto 0.5rem auto; 
+    width: 172px;
 }
 .button-text-footer {
     font-size: 1rem;

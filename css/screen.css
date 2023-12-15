@@ -196,9 +196,10 @@ nav {
 .nav-creative {
     margin-top: 18rem;
 }
-.nav-resume {
+.nav-resume, .nav-about {
     margin-top: 13rem;
 }
+
 .burger-menu { 
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
     border: 1.5px solid var(--main-background);

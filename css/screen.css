@@ -193,6 +193,9 @@ nav {
     display: inline;
     margin: 0 10px;
 }
+.nav-creative {
+    margin-top: 18rem;
+}
 .burger-menu { 
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
     border: 1.5px solid var(--main-background);
@@ -890,6 +893,9 @@ a:hover {
     margin: 3.5rem 0 1rem 0;       
     border-radius: 14px; 
 }
+figure {
+    margin: 0 auto;
+}
 figcaption {
     font-family: var(--font-primary);
     font-size: .813rem; /* 13 px */
@@ -901,6 +907,7 @@ figcaption {
 img+figcaption {
     margin-top: 10px;
 }
+
 
 /* !!!!!!! ABOUT RULES !!!!!!! */
 
@@ -920,7 +927,7 @@ img+figcaption {
 
 .button-resume {
     margin-top: 1.5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 12rem;
     width: 172px;
 }
 

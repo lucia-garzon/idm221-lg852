@@ -249,6 +249,15 @@ li > a {
     margin-left: -32px;
     margin-bottom: -22px;
 }
+@media (max-width: 390px) {
+    .index-image-project1 {
+        height: 106px;
+        margin-left: -112px; 
+        margin-bottom: -18px;
+        transform: translateX(50%);
+    }
+}
+
 @media (max-width: 385px) {
     .index-image-project1 {
         height: 137px;
@@ -741,17 +750,11 @@ footer .footer_icons {
     margin-right: 1rem; 
 }
 
-
-
 /* 
 a:hover {
     background-color: #fff;
     color: #333;
 } */
-
-
-
-
 
 .project-highlighted {
     color: var(--secondary-text);

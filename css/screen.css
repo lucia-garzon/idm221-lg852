@@ -123,6 +123,33 @@ h4 {
     cursor: pointer;
     margin: .5rem .5rem;
 }
+.button-project {
+    margin: 2rem auto 0.5rem auto; 
+    width: 210px;
+}
+.button-text {
+    color: var(--secondary-text);
+    font-family: var(--font-primary);
+    text-decoration: none;
+}
+.michoacana-buttons {
+    margin-top: 1.5rem;
+}
+.button-resume-footer {
+    background-color: var(--button-color);
+    display: block; 
+    padding: 17px 20px;
+    border: none;
+    border-radius: 53px;
+    cursor: pointer;
+    margin: 2rem auto 0.5rem auto; 
+    width: 172px;
+}
+.button-text-footer {
+    font-size: 1rem;
+    color: var(--secondary-text);
+    text-decoration: none;
+}
 
 
 /* NAVIGATION */
@@ -184,29 +211,6 @@ li > a {
 
 
 
-.button-text {
-    color: var(--secondary-text);
-    font-family: var(--font-primary);
-    text-decoration: none;
-}
-.michoacana-buttons {
-    margin-top: 1.5rem;
-}
-.button-resume-footer {
-    background-color: var(--button-color);
-    display: block; 
-    padding: 17px 20px;
-    border: none;
-    border-radius: 53px;
-    cursor: pointer;
-    margin: 2rem auto 0.5rem auto; 
-    width: 172px;
-}
-.button-text-footer {
-    font-size: 1rem;
-    color: var(--secondary-text);
-    text-decoration: none;
-}
 
 
 /* !!!!!!! IMAGES !!!!!!!*/

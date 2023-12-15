@@ -509,7 +509,7 @@ li > a {
 }
 @media (max-width: 360px) {
     .case-study-title1 {
-        margin-left: 138px; 
+        margin-left: 163px; 
     }
 }
 
@@ -544,6 +544,11 @@ li > a {
         margin-left: 183px; 
     }
 }
+@media (max-width: 360px) {
+    .case-study-title4 {
+        margin-left: 155px; 
+    }
+}
 
 .lilypad-1 {
     /* width: 13.377rem; */
@@ -570,6 +575,12 @@ li > a {
         margin-left: 137px; 
     }
 }
+@media (max-width: 360px) {
+    .lilypad-1 {
+        margin-left: 125px; 
+    }
+}
+
 .lilypad-2 {
     height: 9.5rem;
     width: 13rem;
@@ -609,6 +620,11 @@ li > a {
 @media (max-width: 375px) {
     .lilypad-4 {
         margin-left: 140px; 
+    }
+}
+@media (max-width: 360px) {
+    .lilypad-4 {
+        margin-left: 117px; 
     }
 }
 .case-study-text1 {

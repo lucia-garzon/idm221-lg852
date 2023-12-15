@@ -894,8 +894,9 @@ img+figcaption {
 }
 
 .button-resume {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-bottom: 10rem;
+    width: 172px;
 }
 
 .resume-title-name {

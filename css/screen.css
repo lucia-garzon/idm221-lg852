@@ -172,6 +172,9 @@ ul+.rounded-image {
 .michoacana-buttons {
     margin-top: 1.5rem;
 }
+.michoacana-buttons-bottom {
+    margin-top: 2.5rem;
+}
 .button-resume-footer {
     background-color: var(--button-color);
     display: block; 

@@ -490,6 +490,11 @@ li > a {
         margin-left: 159px; 
     }
 }
+@media (max-width: 375px) {
+    .case-study-title1 {
+        margin-left: 176px; 
+    }
+}
 @media (max-width: 360px) {
     .case-study-title1 {
         margin-left: 138px; 
@@ -522,6 +527,11 @@ li > a {
         margin-left: 159px; 
     }
 }
+@media (max-width: 375px) {
+    .case-study-title4 {
+        margin-left: 183px; 
+    }
+}
 
 .lilypad-1 {
     /* width: 13.377rem; */
@@ -545,7 +555,7 @@ li > a {
 }
 @media (max-width: 375px) {
     .lilypad-1 {
-        margin-left: 100px; 
+        margin-left: 137px; 
     }
 }
 .lilypad-2 {
@@ -582,6 +592,11 @@ li > a {
 @media (max-width: 385px) {
     .lilypad-4 {
         margin-left: 121px; 
+    }
+}
+@media (max-width: 375px) {
+    .lilypad-4 {
+        margin-left: 140px; 
     }
 }
 .case-study-text1 {
